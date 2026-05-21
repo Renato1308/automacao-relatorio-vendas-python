@@ -1,41 +1,50 @@
-# 📊 Sales Dashboard Python
+# Automação de Relatórios com Python
 
-Projeto de análise de dados com Python para geração de dashboard visual e relatório de faturamento.
+Projeto desenvolvido em Python para automatizar a leitura de planilhas Excel e gerar relatórios automáticos de vendas.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- Leitura de dados CSV
-- Tratamento de dados
-- Cálculo de faturamento total
-- Geração de gráfico automático
-- Visualização para tomada de decisão
+- Leitura automática de arquivos Excel
+- Cálculo de faturamento
+- Identificação do produto com maior faturamento
+- Geração automática de relatório em texto
+- Automação de processos com Python
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - Pandas
-- Matplotlib
-- CSV
+- OpenPyXL
+- Excel
+- Git/GitHub
 
-## ▶️ Como executar
+## Como executar
 
-1. Instale as bibliotecas:
+### Instalar dependências
 
 ```bash
-pip install pandas matplotlib
+pip install pandas openpyxl
+```
 
-2. Execute:
-python app.py
+### Executar projeto
 
-📄 Dados analisados
-Produto
-Quantidade de vendas
-Valor unitário
-Faturamento total
-💼 Objetivo
+```bash
+python relatorio_vendas.py
+```
 
-Projeto desenvolvido para praticar análise de dados com Python e demonstrar conhecimentos para portfólio profissional na área de Dados e BI.
+## Estrutura do projeto
 
-👨‍💻 Autor
+```text
+├── relatorio_vendas.py
+├── vendas.xlsx
+├── relatorio.txt
+└── README.md
+```
+
+## Objetivo
+
+Este projeto foi desenvolvido com foco em automação de processos e produtividade utilizando Python.
+
+## Autor
 
 Renato da Silva Araujo
