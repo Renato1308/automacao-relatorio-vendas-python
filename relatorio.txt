@@ -1,0 +1,13 @@
+RELATÓRIO AUTOMÁTICO DE VENDAS
+========================================
+
+Total geral vendido: R$ 48850.00
+Produto com maior faturamento: Notebook
+
+Detalhamento por produto:
+
+ Produto  Quantidade  Valor Unitário  Total
+Notebook          10            3500  35000
+   Mouse          25              80   2000
+ Teclado          15             150   2250
+ Monitor           8            1200   9600
